@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>thankson-springcloud-common</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>thankson-springcloud-common-utils</module>
+        <module>thankson-springcloud-common-components</module>
+        <module>thankson-springcloud-common-databases</module>
+    </modules>
 
 
 </project>
