@@ -10,6 +10,52 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>thankson-springcloud-provider</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>thankson-springcloud-provider-changgou</module>
+    </modules>
 
+    <dependencies>
+
+        <!--需要Feign的依赖-->
+        <dependency>
+            <groupId>com.thankson.springcloud</groupId>
+            <artifactId>thankson-springcloud-common-utils</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.thankson.springcloud</groupId>
+            <artifactId>thankson-springcloud-common-components</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.thankson.springcloud</groupId>
+            <artifactId>thankson-springcloud-common-databases</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!--eureka客户端-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <!--fastJSON-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
 </project>
