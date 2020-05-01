@@ -2,12 +2,12 @@ package com.thankson.common.components.canal.client.transfer;
 
 import com.alibaba.otter.canal.client.CanalConnector;
 import com.alibaba.otter.canal.protocol.CanalEntry;
-import com.thankson.springcloud.common.components.canal.annotation.ListenPoint;
-import com.thankson.springcloud.common.components.canal.client.abstracts.AbstractBasicMessageTransponder;
-import com.thankson.springcloud.common.components.canal.client.core.CanalMsg;
-import com.thankson.springcloud.common.components.canal.client.core.ListenerPoint;
-import com.thankson.springcloud.common.components.canal.client.interfaces.CanalEventListener;
-import com.thankson.springcloud.common.components.canal.config.CanalConfig;
+import com.thankson.common.components.canal.annotation.ListenPoint;
+import com.thankson.common.components.canal.client.abstracts.AbstractBasicMessageTransponder;
+import com.thankson.common.components.canal.client.core.CanalMsg;
+import com.thankson.common.components.canal.client.core.ListenerPoint;
+import com.thankson.common.components.canal.client.interfaces.CanalEventListener;
+import com.thankson.common.components.canal.config.CanalConfig;
 import org.springframework.util.StringUtils;
 
 import java.lang.reflect.Method;

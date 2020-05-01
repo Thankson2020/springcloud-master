@@ -1,8 +1,8 @@
 package com.thankson.common.components.canal.client.core;
 
 import com.alibaba.otter.canal.protocol.CanalEntry;
-import com.thankson.springcloud.common.components.canal.client.abstracts.option.AbstractDBOption;
-import com.thankson.springcloud.common.components.canal.client.interfaces.CanalEventListener;
+import com.thankson.common.components.canal.client.abstracts.option.AbstractDBOption;
+import com.thankson.common.components.canal.client.interfaces.CanalEventListener;
 import org.springframework.util.CollectionUtils;
 
 import java.util.List;

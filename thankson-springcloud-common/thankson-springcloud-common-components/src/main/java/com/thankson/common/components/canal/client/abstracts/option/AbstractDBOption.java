@@ -1,7 +1,7 @@
 package com.thankson.common.components.canal.client.abstracts.option;
 
 import com.alibaba.otter.canal.protocol.CanalEntry;
-import com.thankson.springcloud.common.components.canal.client.interfaces.IDBOption;
+import com.thankson.common.components.canal.client.interfaces.IDBOption;
 
 /**
  * 数据库操作抽象类
